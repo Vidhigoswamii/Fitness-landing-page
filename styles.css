@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 5px;
+
+  background-image: url('images/b.jpg');
+
+}
+hr{
+  margin-top: 0px;
+}
+h1{
+  color: #F7DBF0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin-top: 89px;
+  margin-right: 978px;
+  margin-left: 79px;
+
+}
+h1:hover{
+  color: #F1D1D0;
+  text-decoration-style: dashed;
+  cursor: default;
+}
+
+/* for styling navbar */
+.navbar{
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  background: #261C2C;
+}
+
+.logo{
+  position: absolute;
+  left: auto;
+  margin: 0 20px;
+  align-items: flex-start;
+}
+.icon-bar{
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+.logo a,.login a{
+  color: #F5ABC9;
+}
+.icon-bar a{
+  text-align: center;
+  padding:7px 40px;
+  font-size: 20px;
+  color: #F9F9F9;
+
+}
+.login{
+  padding-left: 0px;
+  padding-right: 16px;
+  margin: 6px;
+}
+.menu-items{
+  font-size: large;
+  color: #E4D8DC;
+  padding-top: 7px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.menu-items:hover{
+  color: #FBACCC;
+}
+.icon-bar a:hover{
+  color: #CFDAC8;
+}
+
+/* for styling the image hovering */
+.container{
+  width: 90%;
+  margin: 36px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0px;
+  border-color: white;
+  border-radius: 100px;
+
+}
+
+.box{
+  height: 350px;
+  padding-left: 55px;
+padding-right: 55px;
+padding-bottom: 55px;
+  flex: 1;
+  transition: 0.5s;
+
+
+}
+.box:hover{
+  flex:2;
+}
+
+/* for adding background images to the divs */
+.s{
+  background-image: url('images/S2.jpg');
+  background-size: 653px 461px;
+  text-align: left;
+  color: white;
+}
+.m{
+background-image: url('images/M2.jpg');
+background-size: 653px 461px;
+text-align: left;
+color: black;
+}
+.d{
+background-image: url('images/D2.jpg');
+background-size: 653px 463px;
+text-align: left;
+color: white;
+}
+p{
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 0px;
+  align-items:baseline;
+  height: 350px;
+
+}
+p:hover{
+    color: red;
+    cursor: default;
+}
+.arrow{
+  color: red;
+}
+footer{
+  color: #DAD0C2;
+  text-align: center;
+}
